@@ -2,9 +2,11 @@
   "name": "search-react",
   "version": "1.0.0",
   "description": "🔎 search react component with a cancel button and a nice animation",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/VolandoBoyz/search-react/issues"
   },
-  "homepage": "https://github.com/VolandoBoyz/search-react#readme"
+  "homepage": "https://github.com/VolandoBoyz/search-react#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.0"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  }
 }
