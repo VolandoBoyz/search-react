@@ -2,11 +2,15 @@
   "name": "search-react",
   "version": "1.0.0",
   "description": "🔎 search react component with a cancel button and a nice animation",
-  "main": "src/index.js",
+  "main": "build/search-react.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "clean": "rimraf build",
+    "build": "npm run clean && webpack",
+    "dev": "webpack-dev-server"
+
   },
   "repository": {
     "type": "git",
@@ -30,6 +34,24 @@
     "styled-components": "^2.1.0"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0"
+    "@kadira/storybook": "^2.21.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "image-webpack-loader": "^3.3.0",
+    "rimraf": "^2.6.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.3",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }

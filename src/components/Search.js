@@ -45,7 +45,7 @@ export const SearchStyled = styled(Search)`
   height: 40px;
     display: flex;
     .search-input{
-      transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in-out;
       width: 80%;
     }
     input{
