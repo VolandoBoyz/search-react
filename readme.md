@@ -1,11 +1,12 @@
-#Search-react
+# Search-react
 
 > 🔎 search react component with a cancel button and a nice animation
 
-#Steps to use it
+## Steps to use it
 
 1.Install the component
   `yarn add search-react` 
+
 2.Use it component
   ```javascript
 
