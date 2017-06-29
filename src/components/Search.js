@@ -31,7 +31,7 @@ class Search extends Component {
           onChange={e => this.handleChange(e)}
           value={this.state.term}
         />
-        <button onClick={() => this.handleCancel()}>
+        <button type='button' onClick={() => this.handleCancel()}>
           Cancel
         </button>
       </div>
