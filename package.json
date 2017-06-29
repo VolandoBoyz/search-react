@@ -1,6 +1,6 @@
 {
   "name": "search-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "🔎 search react component with a cancel button and a nice animation",
   "main": "build/search-react.js",
   "scripts": {

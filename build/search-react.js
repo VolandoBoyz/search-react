@@ -2703,7 +2703,7 @@ var Search = function (_Component) {
         }),
         _react2.default.createElement(
           'button',
-          { onClick: function onClick() {
+          { type: 'button', onClick: function onClick() {
               return _this4.handleCancel();
             } },
           'Cancel'
